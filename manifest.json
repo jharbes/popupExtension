@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Menu de Sites",
+    "version": "1.0",
+    "description": "Uma extensão para exibir um menu de sites",
+    "icons": {
+      "128": "icon.png"
+    },
+    "permissions": [
+      "tabs"
+    ],
+    "browser_action": {
+      "default_popup": "popup.html"
+    },
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    }
+  }
+  

@@ -1,0 +1,42 @@
+body {
+    min-width: 300px;
+  }
+  
+  #menu-container {
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  ul#site-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  ul#site-list li {
+    padding: 10px 0;
+  }
+  
+  ul#site-list li a {
+    display: block;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+  }
+  
+  ul#site-list li a:hover {
+    text-decoration: underline;
+  }
+  
+  ul.sub-menu {
+    padding-left: 10px;
+  }
+  
+  ul.sub-menu li {
+    padding: 5px 0;
+  }
+  
+  ul.sub-menu li a {
+    font-size: 16px;
+  }
+  
